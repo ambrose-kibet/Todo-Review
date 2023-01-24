@@ -16,7 +16,7 @@ form.addEventListener('submit', (e) => {
     completed: false,
   };
   const newValues = [...getLocalStorage(), task];
-  formInput.value = '';
+  formInput.reset();
   setLocalStorage(newValues);
   handleDisplay();
 });

@@ -1,8 +1,8 @@
-import displayItems from './displayList';
+import displayList from './displayList';
 import { getLocalStorage } from './LocalStorage';
 
 const handleDisplay = () => {
-  displayItems(getLocalStorage());
+  displayList(getLocalStorage());
 
   // clear all completed fuctionality
 };
